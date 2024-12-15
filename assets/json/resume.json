@@ -5,8 +5,8 @@
     "image": "",
     "email": "rajesh.45npt@gmail.com",
     "phone": "",
-    "url": "https://shrestharajesh.github.io/al-folio/",
-    "summary": "A 3rd year Ph.D. student in Department of Computer Science at Oregon State University. My research interests are in the area of unsupervised learning including generative models, representation learning, and domain adaptation. I am advised by Dr. Xiao Fu.",
+    "url": "https://rajeshshrestha.github.io/",
+    "summary": "A 4th year Ph.D. student in Department of Computer Science at Oregon State University. My research interests are in the area of unsupervised learning including generative models, representation learning, and multi-modal learning. I am advised by Dr. Xiao Fu.",
     "location": {
       "address": "",
       "postalCode": "97330",
@@ -29,7 +29,7 @@
         "url": "https://www.oregonstate.edu/",
         "startDate": "2023-04-01",
         "endDate": "Now",
-        "summary": "My work involves using supervised and unsupervised machine learning techniques to solve real-world problem and the theoretical analysis of the propsed methods. I worked on developing a new ADMM based channel estimation method and providing its theoretical recovery guarantee. Currently, I am working in domain adaptation problem.",
+        "summary": "My work involves using supervised and unsupervised machine learning techniques to solve real-world problem and the theoretical analysis of the proposed methods. I am working on the use of pretrained generative diffusion model for conditional image generation, and solving inverse problem.",
         "highlights": ""
       },
       {
@@ -106,7 +106,7 @@
         "title": "Private and Secure AI Scholarship",
         "date": "2019-08-04",
         "awarder": "Facebook and Udacity",
-        "summary": "Ranked in top200/5000 in cahllenge course and got a scholarship for Computer Vision Nanodegree"
+        "summary": "Ranked in top 200/5000 in a challenge course and got a scholarship for Computer Vision Nanodegree"
       },
       {
         "title": "AI Fellowship",
@@ -121,7 +121,7 @@
         "summary": "Represented Nepal in ABU Robocon 2016 and won award for consistent performance in control and navigation of an autonomous robot"
       },
       {
-        "title": "Fellowship for 'Bachelor's",
+        "title": "Fellowship for Bachelor's",
         "date": "2013-08-21",
         "awarder": "Institue of Engineering, Pulchowk Campus",
         "summary": "Ranked among top 100 out of 15000 applicants and got a full scholarship for Bachelor's in Electronics and Communication Engineering"
@@ -177,29 +177,29 @@
         "url": "http://coursera.org/verify/TSHF6H7PVVEW"
       }
   ],
-  "publications": [
-    {
-      "name": "Exploratory Training: When the Trainers Learn",
-      "publisher": "HILDA",
-      "releaseDate": "2022",
-      "url": "https://dl.acm.org/doi/abs/10.1145/3546930.3547500"
-    },
-    {
-      "name": "Exploratory Training: When Annotators Learn About Data",
-      "publisher": "SIGMOD",
-      "releaseDate": "2023",
-      "url": "https://dl.acm.org/doi/10.1145/3589280"
-    }
-  ],
-  "skills": [
-    {
-      "name": "Programming",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-      ]
-    }
-  ],
+//   "publications": [
+//     {
+//       "name": "Exploratory Training: When the Trainers Learn",
+//       "publisher": "HILDA",
+//       "releaseDate": "2022",
+//       "url": "https://dl.acm.org/doi/abs/10.1145/3546930.3547500"
+//     },
+//     {
+//       "name": "Exploratory Training: When Annotators Learn About Data",
+//       "publisher": "SIGMOD",
+//       "releaseDate": "2023",
+//       "url": "https://dl.acm.org/doi/10.1145/3589280"
+//     }
+//   ],
+//   "skills": [
+//     {
+//       "name": "Programming",
+//       "level": "Master",
+//       "icon": "fa-solid fa-hashtag",
+//       "keywords": [
+//       ]
+//     }
+//   ],
   "languages": [
     {
       "language": "Nepali",
@@ -265,17 +265,17 @@
       "reference": "Fusemachines Inc."}
   ],
   "projects": [
-    {
-      "name": "Conditional Image Generation",
-      "summary": "Proposed set of methods based on empirical analysis for the reduction of computation time in conditional image generation using pretrained models",
-      "highlights": ["Diffusion Model"],
-      "url": "https://arxiv.org/abs/2312.13253"
-    },
-    {
-        "name": "Natural Gradient Method: Perspective, Efficient-Scalable Approximation and Analysis",
-        "summary": "Study of current approximation and analysis of its performance with experiments",
-        "url": "https://arxiv.org/abs/2303.05473"
-      },
+    // {
+    //   "name": "Conditional Image Generation",
+    //   "summary": "Proposed set of methods based on empirical analysis for the reduction of computation time in conditional image generation using pretrained models",
+    //   "highlights": ["Diffusion Model"],
+    //   "url": "https://arxiv.org/abs/2312.13253"
+    // },
+    // {
+    //     "name": "Natural Gradient Method: Perspective, Efficient-Scalable Approximation and Analysis",
+    //     "summary": "Study of current approximation and analysis of its performance with experiments",
+    //     "url": "https://arxiv.org/abs/2303.05473"
+    //   },
       {
         "name": "Camera Model Identification to authenticate digital images",
         "summary": "Use of image processing and modern deep learning with ensembling techniques for source camera identification of digital image",
