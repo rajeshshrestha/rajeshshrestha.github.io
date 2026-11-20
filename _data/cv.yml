@@ -6,7 +6,7 @@
     - name: Role
       value: Computer Science Ph.D. researcher, Oregon State University
     - name: Research
-      value: Generative AI, diffusion and flow models, multimodal and representation learning, computer vision, numerical optimization, scalable machine learning, and inverse problems
+      value: Generative AI, inverse problems, statistical signal processing, and numerical optimization
 - title: Education
   type: time_table
   contents:
@@ -40,14 +40,3 @@
       year: 2021–2023
       description:
         - Programming assignments and automated grading for CS340.
-    - title: Team Member, ABU Robocon International Robotics Competition
-      institution: Robotics Club, Pulchowk Campus
-      year: 2014–2018
-      description:
-        - Developed robot kinematics, control algorithms, and control circuits.
-        - Represented Nepal at ABU Robocon.
-- title: Selected Projects
-  type: list
-  contents:
-    - "Temporal Action Segmentation with Vision Transformers: VideoViT fine-tuning with adapters and token merging."
-    - "Camera Model Identification for Digital Image Authentication: image processing and deep-learning ensembles."
