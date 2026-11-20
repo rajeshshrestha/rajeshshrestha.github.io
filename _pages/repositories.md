@@ -1,47 +1,34 @@
 ---
-# layout: page
-# permalink: /repositories/
-# title: Repositories
-# # description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
-# nav: true
-# nav_order: 4
-# ---
+layout: page
+permalink: /repositories/
+title: Research code
+description: Public implementations and experiments accompanying my research.
+nav: true
+nav_order: 4
+---
 
-# <!-- ## GitHub users -->
+## Generative modeling and inverse problems
 
-# {% if site.data.repositories.github_users %}
+**[ACDC](https://github.com/rajeshshrestha/ACDC)** implements the AC-DC score-based denoiser within ADMM for plug-and-play inference. The PyTorch code supports tasks including super-resolution, inpainting, deblurring, and phase retrieval.
 
-# <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-#   {% for user in site.data.repositories.github_users %}
-#     {% include repository/repo_user.liquid username=user %}
-#   {% endfor %}
-# </div>
+[ICLR 2026 paper](https://openreview.net/forum?id=BiXwSIIMIq) · [arXiv](https://arxiv.org/abs/2603.10281)
 
-# ---
+## Wireless channel estimation
 
-# {% if site.repo_trophies.enabled %}
-# {% for user in site.data.repositories.github_users %}
-# {% if site.data.repositories.github_users.size > 1 %}
+**[MIMO estimation from bits](https://github.com/rajeshshrestha/MIMO-estimation-from-bits)** provides algorithms and experiments for recovering downlink MIMO channels from compressed and quantized feedback.
 
-#   <h4>{{ user }}</h4>
-#   {% endif %}
-#   <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-#   {% include repository/repo_trophies.liquid username=user %}
-#   </div>
+[IEEE Transactions on Signal Processing paper](https://doi.org/10.1109/TSP.2025.3593414)
 
-# ---
+## Interactive learning
 
-# {% endfor %}
-# {% endif %}
-# {% endif %}
+**[Exploratory training simulation](https://github.com/rajeshshrestha/exploratory-training-simulation)** contains experiments on learning with human feedback, accompanying work on how annotators learn about data.
 
-# ## GitHub Repositories
+[Proceedings of the ACM on Management of Data paper](https://doi.org/10.1145/3589280)
 
-# {% if site.data.repositories.github_repos %}
+## Optimization
 
-# <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-#   {% for repo in site.data.repositories.github_repos %}
-#     {% include repository/repo.liquid repository=repo %}
-#   {% endfor %}
-# </div>
-# {% endif %}
+**[Natural gradient analysis](https://github.com/rajeshshrestha/NaturalGradientAnalysis)** accompanies my study of natural gradient methods and efficient, scalable approximations.
+
+[arXiv paper](https://arxiv.org/abs/2303.05473)
+
+See [my GitHub profile](https://github.com/rajeshshrestha) for additional repositories.
