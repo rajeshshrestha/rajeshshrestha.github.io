@@ -2,6 +2,8 @@ github_users:
   - rajeshshrestha
 
 github_repos:
+  - rajeshshrestha/ACDC
+  - rajeshshrestha/MIMO-estimation-from-bits
   - rajeshshrestha/exploratory-training-simulation
   - rajeshshrestha/SamplingMethods
   - rajeshshrestha/NaturalGradientAnalysis
