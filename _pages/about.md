@@ -6,7 +6,7 @@ subtitle: Ph.D. researcher in Computer Science · <a href="https://oregonstate.e
 
 profile:
   align: right
-  image: profile.jpg
+  image: rajesh-shrestha-portrait.jpg
   image_circular: true # crops the image to make it circular
 #   more_info: >
 #     <p>555 your office number</p>
